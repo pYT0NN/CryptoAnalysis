@@ -11,7 +11,7 @@ public static Crypto[] makeCrypto() throws IOException {
         download();
 
         for(int i = 0; i < 10; i++) {
-                getCurrentLine(i);
+                getCurrentLine(i); //Nächste Zeile, Zählt hoch
 
                 //Werte aus der Zeile auslesen, je nachdem wo releavante Infos anfangen und aufhören
                 String id = line.substring(6, length - 3);
